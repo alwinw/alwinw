@@ -1,4 +1,4 @@
-![Monash UAS](image/Monash-UAS-Banner.jpg)
+![Monash UAS](https://raw.githubusercontent.com/alwinw/alwinw/master/image/Monash-UAS-Banner.jpg)
 
 <!--
 ### Hi there 👋
