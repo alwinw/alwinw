@@ -1,7 +1,7 @@
 ![Monash UAS](https://raw.githubusercontent.com/alwinw/alwinw/master/image/Monash-UAS-Banner.jpg)
 
-![Alwin](https://img.shields.io/badge/name-Alwin-blue)
-[![HitCount](http://hits.dwyl.com/alwinw/alwinw.svg)](http://hits.dwyl.com/alwinw/alwinw)
+[![Alwin](https://img.shields.io/badge/Alwin-@alwinw-blue)](https://github.com/alwinw)
+[![HitCount](http://hits.dwyl.com/alwinw/alwinw.svg)](https://github.com/alwinw)
 ![GitHub followers](https://img.shields.io/github/followers/alwinw)
 ![GitHub last commit](https://img.shields.io/github/last-commit/alwinw/alwinw?label=last%20updated)
 
