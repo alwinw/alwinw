@@ -1,10 +1,35 @@
 ![Monash UAS](https://raw.githubusercontent.com/alwinw/alwinw/master/image/Monash-UAS-Banner.jpg)
 
-[![Alwin](https://img.shields.io/badge/Alwin-@alwinw-blue)](https://github.com/alwinw)
-[![HitCount](http://hits.dwyl.com/alwinw/alwinw.svg)](https://github.com/alwinw)
-![GitHub followers](https://img.shields.io/github/followers/alwinw)
-![GitHub last commit](https://img.shields.io/github/last-commit/alwinw/alwinw?label=last%20updated)
+[![Alwin](https://img.shields.io/badge/-alwinw-181717?style=flat&logo=Github&link=https://github.com/alwinw)](https://github.com/alwinw)
 
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alwinrwang/)](https://www.linkedin.com/in/alwinrwang/)
+
+[![ResearchGate](https://img.shields.io/badge/-ResearchGate-00CCBB?style=flat&logo=ResearchGate&logoColor=white)](https://www.researchgate.net/profile/Alwin_Wang)
+
+[![ORCID](https://img.shields.io/badge/-ORCID-A6CE39?style=flat&logo=ORCID&logoColor=white)](https://orcid.org/0000-0003-4883-2917)
+
+[![Stack Overflow](https://img.shields.io/badge/-Stack%20Overflow-FE7A16?style=flat&logo=Stack-Overflow&logoColor=white)](https://stackoverflow.com/users/5782687/alwin)
+
+[![Stack Exchange](https://img.shields.io/badge/-Stack%20Exchange-1E5297?style=flat&logo=Stack-Exchange&logoColor=white&link=https://stackexchange.com/users/4446338/alwin)](https://stackexchange.com/users/4446338/alwin)
+
+[![R](https://img.shields.io/badge/-python-3776AB?style=flat&logo=Python&logoColor=white)](https://github.com/alwinw?tab=repositories&language=python)
+
+[![python](https://img.shields.io/badge/-R-276DC3?style=flat&logo=R&logoColor=white)](https://github.com/alwinw?tab=repositories&language=r)
+
+[![MATLAB](https://img.shields.io/badge/-MATALB-0076A8?style=flat&logo=Mathworks&logoColor=white)](https://github.com/alwinw?tab=repositories&language=matlab)
+
+[![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=flat&logo=C%2B%2B&logoColor=white)](https://github.com/alwinw?tab=repositories&language=c%2B%2B)
+
+[![shell](https://img.shields.io/badge/-shell-5391FE?style=flat&logo=PowerShell&logoColor=white)](https://github.com/alwinw?tab=repositories&language=shell)
+
+[![LaTeX](https://img.shields.io/badge/-LaTeX-008080?style=flat&logo=LaTeX&logoColor=white)](https://github.com/alwinw?tab=repositories&language=TeX)
+
+
+[![HitCount](http://hits.dwyl.com/alwinw/alwinw.svg)](https://github.com/alwinw)
+
+![GitHub followers](https://img.shields.io/github/followers/alwinw)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/alwinw/alwinw?label=last%20updated)
 
 <!--<h1 align="center">Hi 👋, I'm Alwin</h1>
 <h3 align="center">Former Design Lead @MonashUAS</h3>
