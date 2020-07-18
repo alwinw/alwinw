@@ -1,8 +1,10 @@
 ![Monash UAS](https://raw.githubusercontent.com/alwinw/alwinw/master/image/Monash-UAS-Banner.jpg)
 
-[![Alwin](https://img.shields.io/badge/-alwinw-181717?style=flat&logo=Github&link=https://github.com/alwinw)](https://github.com/alwinw)
+<p align="center">
+    <a href="https://github.com/alwinw" target="blank"><img alt="GitHub" src="https://img.shields.io/badge/-alwinw-181717?style=flat&logo=GitHub"></a>
+    <a href="https://www.linkedin.com/in/alwinrwang" target="blank"><img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=Linkedin&logoColor=white"></a>
+</p>
 
-[![Linkedin](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alwinrwang/)](https://www.linkedin.com/in/alwinrwang/)
 
 [![ResearchGate](https://img.shields.io/badge/-ResearchGate-00CCBB?style=flat&logo=ResearchGate&logoColor=white)](https://www.researchgate.net/profile/Alwin_Wang)
 
@@ -31,7 +33,7 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/alwinw/alwinw?label=last%20updated)
 
-<!--<h1 align="center">Hi 👋, I'm Alwin</h1>
+<!-- <h1 align="center">Hi 👋, I'm Alwin</h1>
 <h3 align="center">Former Design Lead @MonashUAS</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=alwinw" alt="alwinw" /> </p>
 
@@ -41,7 +43,7 @@
 <a href="https://dev.to/alwinw" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="alwinw" height="20" width="20" /></a>
 <a href="https://linkedin.com/in/alwinrwang" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="alwinrwang" height="20" width="20" /></a>
 <a href="https://stackoverflow.com/alwin" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="alwin" height="20" width="20" /></a>
-</p>
+</p> -->
 
 <!--
 ### Hi there 👋
