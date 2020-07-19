@@ -18,7 +18,7 @@
     <a href="https://github.com/alwinw?tab=repositories&language=TeX" target="_blank"><img alt="LaTeX" src="https://img.shields.io/badge/-LaTeX-008080?style=flat&logo=LaTeX&logoColor=white"></a>
 </p>
 
-<p align="right">
+<p align="center">
     <a href="https://github.com/alwinw?tab=repositories&language=python" target="_blank"><img alt="profile hits" src="https://img.shields.io/jsdelivr/gh/hw/alwinw/alwinw?label=hits&style=flat-square&logo=GitHub&logoColor=white"></a>
     <a href="https://github.com/alwinw?tab=repositories&language=python" target="_blank"><img alt="GitHub hits" src="https://img.shields.io/github/last-commit/alwinw/alwinw?label=profile%20last%20updated"></a>
 </p>
