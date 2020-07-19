@@ -1,4 +1,4 @@
-![Monash UAS](https://raw.githubusercontent.com/alwinw/alwinw/master/image/Monash-UAS-Banner.jpg)
+![Monash UAS](https://raw.githubusercontent.com/alwinw/alwinw/master/image/Monash-UAS-Banner.png)
 
 <p align="center">
     <a href="https://github.com/alwinw" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/-@alwinw-181717?style=flat&logo=GitHub&logoColor=white"></a>
