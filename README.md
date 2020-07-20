@@ -19,8 +19,7 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/alwinw" target="_blank"><img src="https://komarev.com/ghpvc/?username=alwinw" alt="alwinw" /></a>
-    <a href="https://github.com/alwinw" target="_blank"><img alt="hits" src="http://hits.dwyl.com/alwinw/alwinw.svg"></a>
-    <a href="https://github.com/alwinw" target="_blank"><img alt="profile hits" src="https://img.shields.io/jsdelivr/gh/hw/alwinw/alwinw?label=hits&style=flat&logo=GitHub&logoColor=white"></a>
+    <a href="https://github.com/alwinw" target="_blank"><img  alt="alwinw" src="https://badges.pufler.dev/visits/alwinw/alwinw?logo=GitHub&label=visits&color=success&logoColor=white"/></a>
+    <a href="https://github.com/alwinw" target="_blank"><img alt="profile hits" src="https://img.shields.io/jsdelivr/gh/hw/alwinw/alwinw?label=hits&style=flat"></a>
     <a href="https://github.com/alwinw/alwinw" target="_blank"><img alt="GitHub hits" src="https://img.shields.io/github/last-commit/alwinw/alwinw?label=profile%20last%20updated"></a>
 </p>
