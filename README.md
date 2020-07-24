@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-    <img alt = "GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=alwinw&show_icons=true">
+    <img alt = "GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=alwinw&show_icons=true&hide_border=true&hide=issues&title_color=5391FE&icon_color=000000&text_color=555">
 </p>
 
 <p align="center">
