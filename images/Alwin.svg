@@ -24,7 +24,7 @@
         transform="translate(0 2.5)" stroke-dasharray="250px" stroke-dashoffset="250px" />
     <path id="A-full" class="white-outline"
         d="M376.84,343.4,361,389.72H330.76l62.16-170.88h38.64l62.17,170.88H463.49L447.65,343.4ZM434.45,305c-7.68-22.8-15.13-45.12-22.09-67.92h-.48C404.92,259.88,398,282.2,390,305l-4.56,13.44H439Z"
-        transform="translate(0 2.5)" stroke-dasharray="650px" />
+        transform="translate(0 2.5)" stroke-dasharray="650px" stroke-dashoffset="650px" />
 
     <path id="l" class="white-outline" d="M512.2,389.72V218.84h27.36V389.72Z" transform="translate(0 2.5)"
         stroke-dasharray="400px" stroke-dashoffset="400px" />
@@ -50,20 +50,18 @@
     <animate href="#n" attributeName="stroke-dashoffset" from="950" to="0" dur="1.5s" begin="2" fill="freeze" />
     <animate href="#i-upper" attributeName="stroke-dashoffset" from="110" to="0" dur="0.5s" begin="2" fill="freeze" />
 
-    <animate href="#A-full" attributeName="fill" values="none;#fff" dur="1s" begin="3.5" />
-    <animate href="#l" attributeName="fill" values="none;#fff" dur="1s" begin="3.5" />
-    <animate href="#w" attributeName="fill" values="none;#fff" dur="1s" begin="3.5" />
-    <animate href="#i-lower" attributeName="fill" values="none;#fff" dur="1s" begin="3.5" />
-    <animate href="#i-upper" attributeName="fill" values="none;#fff" dur="1s" begin="3.5" />
-    <animate href="#n" attributeName="fill" values="none;#fff" dur="1s" begin="3.5" />
+    <animate href="#A-full" attributeName="fill" values="none;#fff" dur="1s" begin="3" fill="freeze" />
+    <animate href="#l" attributeName="fill" values="none;#fff" dur="1s" begin="3" fill="freeze" />
+    <animate href="#w" attributeName="fill" values="none;#fff" dur="1s" begin="3" fill="freeze" />
+    <animate href="#i-lower" attributeName="fill" values="none;#fff" dur="1s" begin="3" fill="freeze" />
+    <animate href="#i-upper" attributeName="fill" values="none;#fff" dur="1s" begin="3" fill="freeze" />
+    <animate href="#n" attributeName="fill" values="none;#fff" dur="1s" begin="3" fill="freeze" />
 
-    <line id="name-line" class="white-outline" x1="-78.77" y1="322.5" x2="78.77" y2="-322.5"
-        transform="translate(644.58 320)" stroke="#fff" />
+    <line id="name-line" x1="-78.77" y1="322.5" x2="78.77" y2="-322.5" transform="translate(644.58 320)" stroke="#fff"
+        stroke-width="0px" />
 
-    <animateTransform href="#name-line" attributeName="transform" type="scale" additive="sum" from="0 0" to="1 1"
-        begin="5s" dur="0.1s" />
+    <animate href="#name-line" attributeName="stroke-width" from="0px" to="5px" begin="5s" dur="1s" fill="freeze" />
 
-    <animateTransform href="name-line" type="scale">
 </svg>
 <!--
 <line id="name-line" class="white-outline" x1="565.82" y1="642.5" x2="723.35" y2="2.5" />
