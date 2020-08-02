@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Name" viewBox="0 2.5 1280 640">
+    <defs>
+        <style>
+            .name-bg {
+                fill: #252e40;
+            }
+
+            .letter-outline {
+                fill: none;
+                stroke: #fff;
+                stroke-linejoin: round;
+                stroke-linecap: round;
+                stroke-width: 5px;
+            }
+        </style>
+    </defs>
+    <rect id="background" class="name-bg" y="2.5" width="1280" height="640" />
+    <path id="A" , class="letter-outline"
+        d="M376.84,343.4,361,389.72H330.76l62.16-170.88h38.64l62.17,170.88H463.49L447.65,343.4ZM434.45,305c-7.68-22.8-15.13-45.12-22.09-67.92h-.48C404.92,259.88,398,282.2,390,305l-4.56,13.44H439Z"
+        transform="translate(0 2.5)" stroke-dasharray="650px" />
+    <path id="l" , class="letter-outline" d="M512.2,389.72V218.84h27.36V389.72Z" transform="translate(0 2.5)" />
+    <path id="w" , class="letter-outline"
+        d="M676.36,389.72l-12.48-50.4c-4.32-17.28-8.16-34.8-11.76-52.56h-.48c-3.6,17.76-7.44,35.28-11.76,52.56l-12.48,50.4H588.28L558.52,267.8h27.36l11,49c4.08,17.76,7.92,36.24,11,54h.48c3.6-17.76,7.68-35.28,12-53l12.24-49.92h38.4l12.24,49.92c4.32,17.76,8.4,35.28,12,53h.48c3.12-17.76,7-36.24,11-54l11-49h27.37L715.48,389.72Z"
+        transform="translate(0 2.5)" />
+    <path id="i" class="letter-outline" d="M764.2,245V218.84h27.36V245Zm0,144.72V267.8h27.36V389.72Z"
+        transform="translate(0 2.5)" />
+    <path id="n" class="letter-outline"
+        d="M933.88,315.08v74.64H906.52V317.48c0-21.84-9.36-30.48-24.72-30.48C866.2,287,854,298.76,854,322v67.68H826.6V267.8h25.92v15.84H853a43.52,43.52,0,0,1,36.48-18.72C917.08,264.92,933.88,281.72,933.88,315.08Z"
+        transform="translate(0 2.5)" />
+
+    <animate href="#A" attributeName="stroke-dashoffset" from="650" to="0" dur="2s" begin="click" fill="freeze" />
+    <animate href="#l" attributeName="stroke-dashoffset" from="1000" to="100" dur="10s" begin="click" fill="freeze" />
+
+
+    <line class="cls-4" x1="565.82" y1="642.5" x2="723.35" y2="2.5" />
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" id="Name" viewBox="0 0 1280 645">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: #252e40;
+            }
+
+            .cls-2,
+            .cls-3 {
+                fill: none;
+                stroke: #fff;
+                stroke-linejoin: round;
+                stroke-width: 5px;
+            }
+
+            .cls-3 {
+                stroke-linecap: round;
+            }
+        </style>
+    </defs>
+    <rect class="cls-1" y="2.5" width="1280" height="640" />
+    <polygon class="cls-2"
+        points="376.844 345.899 361.003 392.221 330.763 392.221 392.924 221.337 431.565 221.337 493.727 392.221 463.486 392.221 447.646 345.899 376.844 345.899" />
+    <path class="cls-2"
+        d="M434.4453,304.999c-7.68-22.8-15.1206-45.1206-22.0806-67.9214h-.48c-6.96,22.8008-13.92,45.1211-21.8409,67.9214l-4.56,13.4409h53.5215Z"
+        transform="translate(0 2.5)" />
+    <rect class="cls-2" x="512.2021" y="221.3374" width="27.3604" height="170.8833" />
+    <path class="cls-2"
+        d="M676.3633,389.7207l-12.4805-50.4014c-4.3193-17.28-8.16-34.8-11.76-52.56h-.48c-3.6,17.76-7.44,35.28-11.76,52.56l-12.48,50.4014h-39.121L558.5205,267.7983h27.3608l11.04,48.961c4.08,17.76,7.92,36.2407,11.0405,54.0014h.48c3.6-17.7607,7.68-35.2812,12-53.0415l12.24-49.9209H671.083l12.24,49.9209c4.32,17.76,8.4,35.2808,12.001,53.0415h.48c3.12-17.7607,6.96-36.2412,11.04-54.0014l11.041-48.961h27.36L715.4844,389.7207Z"
+        transform="translate(0 2.5)" />
+    <rect class="cls-2" x="764.1992" y="221.3374" width="27.3604" height="26.1606" />
+    <rect class="cls-2" x="764.1992" y="270.2983" width="27.3604" height="121.9224" />
+    <path class="cls-2"
+        d="M933.8809,315.08v74.6411h-27.36V317.48c0-21.8408-9.36-30.481-24.7207-30.481-15.6006,0-27.8408,11.76-27.8408,35.04v67.6816h-27.36V267.7983h25.92v15.84h.48a43.5231,43.5231,0,0,1,36.4805-18.72C917.08,264.9185,933.8809,281.7188,933.8809,315.08Z"
+        transform="translate(0 2.5)" />
+    <line class="cls-3" x1="565.8207" y1="642.5" x2="723.3466" y2="2.5" />
+</svg>
