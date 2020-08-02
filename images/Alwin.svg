@@ -1,10 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" id="Name" viewBox="0 2.5 1280 640">
     <defs>
         <style>
-            .name-bg {
-                fill: #252e40;
-            }
-
             .white-outline {
                 fill: none;
                 stroke: #fff;
@@ -14,7 +10,9 @@
             }
         </style>
     </defs>
-    <rect id="background" class="name-bg" y="2.5" width="1280" height="640" />
+
+    <!-- NAME: Alwin-->
+    <rect id="name-bg" y="2.5" width="1280" height="640" fill="#252e40" />
 
     <polygon id="A-outside" class="white-outline"
         points="376.844 345.899 361.003 392.221 330.763 392.221 392.924 221.337 431.565 221.337 493.727 392.221 463.486 392.221 447.646 345.899 376.844 345.899"
@@ -24,39 +22,60 @@
         transform="translate(0 2.5)" stroke-dasharray="250px" stroke-dashoffset="250px" />
     <path id="A-full" class="white-outline"
         d="M376.84,343.4,361,389.72H330.76l62.16-170.88h38.64l62.17,170.88H463.49L447.65,343.4ZM434.45,305c-7.68-22.8-15.13-45.12-22.09-67.92h-.48C404.92,259.88,398,282.2,390,305l-4.56,13.44H439Z"
-        transform="translate(0 2.5)" stroke-dasharray="650px" stroke-dashoffset="650px" />
+        transform="translate(0 2.5)" stroke-dasharray="650px" stroke-dashoffset="650px" style="fill:#fff" />
 
     <path id="l" class="white-outline" d="M512.2,389.72V218.84h27.36V389.72Z" transform="translate(0 2.5)"
-        stroke-dasharray="400px" stroke-dashoffset="400px" />
+        stroke-dasharray="400px" stroke-dashoffset="400px" style="fill:#fff" />
 
     <path id="w" class="white-outline"
         d="M676.36,389.72l-12.48-50.4c-4.32-17.28-8.16-34.8-11.76-52.56h-.48c-3.6,17.76-7.44,35.28-11.76,52.56l-12.48,50.4H588.28L558.52,267.8h27.36l11,49c4.08,17.76,7.92,36.24,11,54h.48c3.6-17.76,7.68-35.28,12-53l12.24-49.92h38.4l12.24,49.92c4.32,17.76,8.4,35.28,12,53h.48c3.12-17.76,7-36.24,11-54l11-49h27.37L715.48,389.72Z"
-        transform="translate(0 2.5)" stroke-dasharray="1100px" stroke-dashoffset="1100px" />
+        transform="translate(0 2.5)" stroke-dasharray="1100px" stroke-dashoffset="1100px" style="fill:#fff" />
 
     <rect id="i-upper" class="white-outline" x="764.1992" y="221.3374" width="27.3604" height="26.1606"
-        stroke-dasharray="110px" stroke-dashoffset="110px" />
+        stroke-dasharray="110px" stroke-dashoffset="110px" style="fill:#fff" />
     <rect id="i-lower" class="white-outline" x="764.1992" y="270.2983" width="27.3604" height="121.9224"
-        stroke-dasharray="300px" stroke-dashoffset="300px" />
+        stroke-dasharray="300px" stroke-dashoffset="300px" style="fill:#fff" />
 
     <path id="n" class="white-outline"
         d="M933.88,315.08v74.64H906.52V317.48c0-21.84-9.36-30.48-24.72-30.48C866.2,287,854,298.76,854,322v67.68H826.6V267.8h25.92v15.84H853a43.52,43.52,0,0,1,36.48-18.72C917.08,264.92,933.88,281.72,933.88,315.08Z"
-        transform="translate(0 2.5)" stroke-dasharray="950px" stroke-dashoffset="950px" />
+        transform="translate(0 2.5)" stroke-dasharray="950px" stroke-dashoffset="950px" style="fill:#fff" />
 
-    <animate href="#A-outside" attributeName="stroke-dashoffset" from="650" to="0" dur="1.5s" begin="0" fill="freeze" />
-    <animate href="#A-inside" attributeName="stroke-dashoffset" from="250" to="0" dur="1.5s" begin="0" fill="freeze" />
-    <animate href="#A-full" attributeName="stroke-dashoffset" from="650" to="0" dur="0.5s" begin="2" fill="freeze" />
-    <animate href="#l" attributeName="stroke-dashoffset" from="400" to="0" dur="1s" begin="0.5" fill="freeze" />
-    <animate href="#w" attributeName="stroke-dashoffset" from="1100" to="0" dur="1.5s" begin="1" fill="freeze" />
-    <animate href="#i-lower" attributeName="stroke-dashoffset" from="300" to="0" dur="1.5s" begin="1.5" fill="freeze" />
-    <animate href="#n" attributeName="stroke-dashoffset" from="950" to="0" dur="1.5s" begin="2" fill="freeze" />
-    <animate href="#i-upper" attributeName="stroke-dashoffset" from="110" to="0" dur="0.5s" begin="2" fill="freeze" />
+    <!-- INITIAL: Flash Alwin -->
+    <animate href="#A-full" attributeName="fill" values="transparent" dur="1s" fill="freeze" begin="0" />
+    <animate href="#l" attributeName="fill" values="transparent" dur="1s" fill="freeze" begin="0" />
+    <animate href="#w" attributeName="fill" values="transparent" dur="1s" fill="freeze" begin="0" />
+    <animate href="#i-lower" attributeName="fill" values="transparent" dur="1s" fill="freeze" begin="0" />
+    <animate href="#i-upper" attributeName="fill" values="transparent" dur="1s" fill="freeze" begin="0" />
+    <animate href="#n" attributeName="fill" values="transparent" dur="1s" fill="freeze" begin="0" />
 
-    <animate href="#A-full" attributeName="fill" values="none;#fff" dur="1s" begin="3" fill="freeze" />
-    <animate href="#l" attributeName="fill" values="none;#fff" dur="1s" begin="3" fill="freeze" />
-    <animate href="#w" attributeName="fill" values="none;#fff" dur="1s" begin="3" fill="freeze" />
-    <animate href="#i-lower" attributeName="fill" values="none;#fff" dur="1s" begin="3" fill="freeze" />
-    <animate href="#i-upper" attributeName="fill" values="none;#fff" dur="1s" begin="3" fill="freeze" />
-    <animate href="#n" attributeName="fill" values="none;#fff" dur="1s" begin="3" fill="freeze" />
+    <!-- Outline Name -->
+    <animate href="#name-bg" dur="0.1s" begin="0" fill="freeze" id="name" />
+    <animate href="#A-outside" attributeName="stroke-dashoffset" from="650" to="0" dur="1.5s" fill="freeze"
+        begin="name.begin" />
+    <animate href="#A-inside" attributeName="stroke-dashoffset" from="250" to="0" dur="1.5s" fill="freeze"
+        begin="name.begin" />
+    <animate href="#l" attributeName="stroke-dashoffset" from="400" to="0" dur="1s" fill="freeze"
+        begin="name.begin+0.5s" />
+    <animate href="#w" attributeName="stroke-dashoffset" from="1100" to="0" dur="1.5s" fill="freeze"
+        begin="name.begin+1s" />
+    <animate href="#i-lower" attributeName="stroke-dashoffset" from="300" to="0" dur="1.5s" fill="freeze"
+        begin="name.begin+1.5s" />
+    <animate href="#n" attributeName="stroke-dashoffset" from="950" to="0" dur="1.5s" fill="freeze"
+        begin="name.begin+2s" />
+    <animate href="#i-upper" attributeName="stroke-dashoffset" from="110" to="0" dur="0.5s" fill="freeze"
+        begin="name.begin+2s" />
+    <animate href="#A-full" attributeName="stroke-dashoffset" from="650" to="0" dur="0.5s" fill="freeze"
+        begin="name.begin+2s" id="name_outline" />
+
+    <animate href="#A-full" attributeName="fill" values="none;#fff" dur="1s" fill="freeze"
+        begin="name_outline.end+1s" />
+    <animate href="#l" attributeName="fill" values="none;#fff" dur="1s" fill="freeze" begin="name_outline.end+1s" />
+    <animate href="#w" attributeName="fill" values="none;#fff" dur="1s" fill="freeze" begin="name_outline.end+1s" />
+    <animate href="#i-lower" attributeName="fill" values="none;#fff" dur="1s" fill="freeze"
+        begin="name_outline.end+1s" />
+    <animate href="#i-upper" attributeName="fill" values="none;#fff" dur="1s" fill="freeze"
+        begin="name_outline.end+1s" />
+    <animate href="#n" attributeName="fill" values="none;#fff" dur="1s" fill="freeze" begin="name_outline.end+1s" />
 
     <line id="name-line" x1="-78.77" y1="322.5" x2="78.77" y2="-322.5" transform="translate(644.58 320)" stroke="#fff"
         stroke-width="0px" />
