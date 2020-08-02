@@ -46,7 +46,7 @@
     <animate href="#w" attributeName="fill" values="transparent" dur="1s" fill="freeze" begin="0" />
     <animate href="#i-lower" attributeName="fill" values="transparent" dur="1s" fill="freeze" begin="0" />
     <animate href="#i-upper" attributeName="fill" values="transparent" dur="1s" fill="freeze" begin="0" />
-    <animate href="#n" attributeName="fill" values="transparent" dur="1s" fill="freeze" begin="0" />
+    <animate href="#n" attributeName="fill" values="transparent" dur="0.5s" fill="freeze" begin="0" />
 
     <!-- Outline Name -->
     <animate href="#name-bg" dur="0.1s" begin="0" fill="freeze" id="name" />
@@ -56,8 +56,7 @@
         begin="name.begin" />
     <animate href="#l" attributeName="stroke-dashoffset" from="1" to="0" dur="1s" fill="freeze"
         begin="name.begin+0.5s" />
-    <animate href="#w" attributeName="stroke-dashoffset" from="1" to="0" dur="1.5s" fill="freeze"
-        begin="name.begin+1s" />
+    <animate href="#w" attributeName="stroke-dashoffset" from="1" to="0" dur="2s" fill="freeze" begin="name.begin+1s" />
     <animate href="#i-lower" attributeName="stroke-dashoffset" from="1" to="0" dur="1.5s" fill="freeze"
         begin="name.begin+1.5s" />
     <animate href="#n" attributeName="stroke-dashoffset" from="1" to="0" dur="1.5s" fill="freeze"
@@ -67,20 +66,22 @@
     <animate href="#A-full" attributeName="stroke-dashoffset" from="1" to="0" dur="0.5s" fill="freeze"
         begin="name.begin+2s" id="name_outline" />
 
-    <animate href="#A-full" attributeName="fill" values="none;#fff" dur="1s" fill="freeze"
-        begin="name_outline.end+2s" />
-    <animate href="#l" attributeName="fill" values="none;#fff" dur="1s" fill="freeze" begin="name_outline.end+2s" />
-    <animate href="#w" attributeName="fill" values="none;#fff" dur="1s" fill="freeze" begin="name_outline.end+2s" />
-    <animate href="#i-lower" attributeName="fill" values="none;#fff" dur="1s" fill="freeze"
-        begin="name_outline.end+2s" />
-    <animate href="#i-upper" attributeName="fill" values="none;#fff" dur="1s" fill="freeze"
-        begin="name_outline.end+2s" />
-    <animate href="#n" attributeName="fill" values="none;#fff" dur="1s" fill="freeze" begin="name_outline.end+2s" />
+    <animate href="#A-full" attributeName="fill" values="none;#fff" dur="2s" fill="freeze"
+        begin="name_outline.end+1.5s" />
+    <animate href="#l" attributeName="fill" values="none;#fff" dur="2s" fill="freeze" begin="name_outline.end+1.5s" />
+    <animate href="#w" attributeName="fill" values="none;#fff" dur="2s" fill="freeze" begin="name_outline.end+1.5s" />
+    <animate href="#i-lower" attributeName="fill" values="none;#fff" dur="2s" fill="freeze"
+        begin="name_outline.end+1.5s" />
+    <animate href="#i-upper" attributeName="fill" values="none;#fff" dur="2s" fill="freeze"
+        begin="name_outline.end+1.5s" />
+    <animate href="#n" attributeName="fill" values="none;#fff" dur="2s" fill="freeze" begin="name_outline.end+1.5s"
+        id="name_fill" />
 
     <line id="name-line" x1="-78.77" y1="322.5" x2="78.77" y2="-322.5" transform="translate(644.58 320)" stroke="#fff"
         stroke-width="0px" />
 
-    <animate href="#name-line" attributeName="stroke-width" from="0px" to="5px" begin="5s" dur="1s" fill="freeze" />
+    <animate href="#name-line" attributeName="stroke-width" from="0px" to="5px" begin="name_fill.end+2s" dur="1s"
+        fill="freeze" />
 
 </svg>
 <!--
