@@ -44,6 +44,7 @@
 
     <animate href="#A-outside" attributeName="stroke-dashoffset" from="650" to="0" dur="1.5s" begin="0" fill="freeze" />
     <animate href="#A-inside" attributeName="stroke-dashoffset" from="250" to="0" dur="1.5s" begin="0" fill="freeze" />
+    <animate href="#A-full" attributeName="stroke-dashoffset" from="650" to="0" dur="0.5s" begin="2" fill="freeze" />
     <animate href="#l" attributeName="stroke-dashoffset" from="400" to="0" dur="1s" begin="0.5" fill="freeze" />
     <animate href="#w" attributeName="stroke-dashoffset" from="1100" to="0" dur="1.5s" begin="1" fill="freeze" />
     <animate href="#i-lower" attributeName="stroke-dashoffset" from="300" to="0" dur="1.5s" begin="1.5" fill="freeze" />
