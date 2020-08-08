@@ -90,13 +90,11 @@
 
     <animate href="#name-line" attributeName="stroke-width" from="0px" to="5px" begin="name_fill.end+1.5s" dur="0.5s"
         fill="freeze" id="diagonal_line" />
-    <animateMotion xlink:href="#sky_left" dur="1s" begin="diagonal_line.end+0.5s" fill="freeze"
-        path="M0,0,157.5259,-640" />
-    <animateMotion xlink:href="#sky_right" dur="1s" begin="diagonal_line.end+0.5s" fill="freeze"
-        path="M0,0,-157.5259,640" id="sky" />
+    <animateMotion href="#sky_left" dur="1s" begin="diagonal_line.end+0.5s" fill="freeze" path="M0,0,157.5259,-640" />
+    <animateMotion href="#sky_right" dur="1s" begin="diagonal_line.end+0.5s" fill="freeze" path="M0,0,-157.5259,640"
+        id="sky" />
     <animate href="#sky_right" attributeName="stroke-width" from="0px" to="5px" dur="0.25s" fill="freeze" begin="sky" />
     <animate href="#name-line" attributeName="stroke-width" from="5px" to="0px" begin="sky.end" dur="0.5s" fill="freeze"
         id="diagonal_line" />
-
 
 </svg>
