@@ -49,7 +49,7 @@
     <animate href="#n" attributeName="fill" values="transparent" dur="0.5s" fill="freeze" begin="0" />
 
     <!-- Outline Name from A to n -->
-    <animate href="#name-bg" dur="0.1s" begin="0" fill="freeze" id="name" />
+    <animate href="#name-bg" dur="0.1s" begin="0;graphics.click" fill="freeze" id="name" />
     <animate href="#A-outside" attributeName="stroke-dashoffset" from="1" to="0" dur="1s" fill="freeze"
         begin="name.begin" />
     <animate href="#A-inside" attributeName="stroke-dashoffset" from="1" to="0" dur="1s" fill="freeze"
@@ -72,7 +72,7 @@
         d="M764.1992,244.998V218.8374h27.36V244.998Zm0,144.7227V267.7983h27.36V389.7207ZM933.8809,315.08v74.6411h-27.36V317.48c0-21.8408-9.36-30.481-24.7207-30.481-15.6006,0-27.8408,11.76-27.8408,35.04v67.6816h-27.36V267.7983h25.92v15.84h.48a43.5231,43.5231,0,0,1,36.4805-18.72C917.08,264.9185,933.8809,281.7188,933.8809,315.08ZM717.8848,267.7983l-11.041,48.961c-4.08,17.76-7.92,36.2407-11.04,54.0014h-.48c-3.6006-17.7607-7.6806-35.2812-12.001-53.0415l-12.24-49.9209H657.4323l-5.0158,20.3779c3.5162,17.2737,7.2623,34.3242,11.4663,51.1431l12.4805,50.4014h39.1211l29.7607-121.9224Z" />
 
     <animate href="#Alw" attributeName="fill" values="transparent;#fff" dur="0.25s" fill="freeze"
-        begin="name_outline.end+0.1s" />
+        begin="name_outline.end+0.1s;graphics.click;click" />
     <animate href="#Alw" attributeName="stroke" values="transparent;#fff" dur="0.25s" fill="freeze"
         begin="name_outline.end+0.1s" />
     <animate href="#win" attributeName="fill" values="transparent;#fff" dur="0.25s" fill="freeze"
@@ -80,10 +80,23 @@
     <animate href="#win" attributeName="stroke" values="transparent;#fff" dur="0.25s" fill="freeze"
         begin="name_outline.end+0.1s" id="name_fill" />
 
+    <!-- Sky Background -->
+    <polygon id="sky_left" points="0 0 0 640 565.821 640 723.347 0 0 0" fill="#8fcaee" stroke="#8fcaee"
+        transform="translate(-157.5259,640)" />
+    <polygon id="sky_right" points="723.347 0 565.821 640 1280 640 1280 0 723.347 0" fill="#74a2d6" stroke="#74a2d6"
+        transform="translate(157.5259,-640)" />
     <line id="name-line" x1="-78.77" y1="322.5" x2="78.77" y2="-322.5" transform="translate(644.58 320)" stroke="#fff"
         stroke-width="0px" />
 
     <animate href="#name-line" attributeName="stroke-width" from="0px" to="5px" begin="name_fill.end+1.5s" dur="0.5s"
-        fill="freeze" />
+        fill="freeze" id="diagonal_line" />
+    <animateMotion xlink:href="#sky_left" dur="1s" begin="diagonal_line.end+0.5s" fill="freeze"
+        path="M0,0,157.5259,-640" />
+    <animateMotion xlink:href="#sky_right" dur="1s" begin="diagonal_line.end+0.5s" fill="freeze"
+        path="M0,0,-157.5259,640" id="sky" />
+    <animate href="#sky_right" attributeName="stroke-width" from="0px" to="5px" dur="0.25s" fill="freeze" begin="sky" />
+    <animate href="#name-line" attributeName="stroke-width" from="5px" to="0px" begin="sky.end" dur="0.5s" fill="freeze"
+        id="diagonal_line" />
+
 
 </svg>
