@@ -103,15 +103,15 @@
     <line id="name-line" x1="-78.77" y1="322.5" x2="78.77" y2="-322.5" transform="translate(644.58 320)" stroke="#fff"
         stroke-width="0px" />
 
-    <animate href="#name-line" attributeName="stroke-width" from="0px" to="5px" begin="name_fill.end+1.5s" dur="0.5s"
+    <animate href="#name-line" attributeName="stroke-width" from="0px" to="8px" begin="name_fill.end+1.5s" dur="0.5s"
         fill="freeze" id="diagonal_line" />
     <animateMotion href="#sky_left" dur="1s" begin="diagonal_line.end+0.5s" fill="freeze" path="M0,0,157.5259,-640" />
     <animateMotion href="#Alw" dur="1s" begin="diagonal_line.end+0.9s" fill="freeze" path="M0,0,157.5259,-640" />
     <animateMotion href="#win" dur="1s" begin="diagonal_line.end+0.83s" fill="freeze" path="M0,0,-157.5259,640" />
     <animateMotion href="#sky_right" dur="1s" begin="diagonal_line.end+0.5s" fill="freeze" path="M0,0,-157.5259,640"
         id="sky" />
-    <animate href="#sky_right" attributeName="stroke-width" from="0px" to="5px" dur="0.25s" fill="freeze" begin="sky" />
-    <animate href="#name-line" attributeName="stroke-width" from="5px" to="0px" begin="sky.end" dur="0.5s" fill="freeze"
+    <animate href="#sky_right" attributeName="stroke-width" from="0px" to="2px" dur="0.25s" fill="freeze" begin="sky" />
+    <animate href="#name-line" attributeName="stroke-width" from="8px" to="0px" begin="sky.end" dur="0.5s" fill="freeze"
         id="diagonal_line" />
 
 </svg>
