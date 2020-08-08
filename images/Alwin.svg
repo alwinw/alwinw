@@ -6,7 +6,7 @@
                 stroke: #fff;
                 stroke-linejoin: round;
                 stroke-linecap: round;
-                stroke-width: 5px;
+                stroke-width: 4px;
             }
 
             .name-blank {
@@ -14,7 +14,7 @@
                 stroke: transparent;
                 stroke-linejoin: round;
                 stroke-linecap: round;
-                stroke-width: 5px;
+                stroke-width: 8px;
             }
         </style>
     </defs>
@@ -80,6 +80,21 @@
     <animate href="#win" attributeName="stroke" values="transparent;#fff" dur="0.25s" fill="freeze"
         begin="name_outline.end+0.1s" id="name_fill" />
 
+    <animate href="#A-outside" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze"
+        begin="name_outline.end" calcMode="discrete" />
+    <animate href="#A-inside" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze"
+        begin="name_outline.end" calcMode="discrete" />
+    <animate href="#l" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze" begin="name_outline.end"
+        calcMode="discrete" />
+    <animate href="#w" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze" begin="name_outline.end"
+        calcMode="discrete" />
+    <animate href="#i-lower" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze"
+        begin="name_outline.end" calcMode="discrete" />
+    <animate href="#i-upper" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze"
+        begin="name_outline.end" calcMode="discrete" />
+    <animate href="#n" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze" begin="name_outline.end"
+        calcMode="discrete" />
+
     <!-- Sky Background -->
     <polygon id="sky_left" points="0 0 0 640 565.821 640 723.347 0 0 0" fill="#8fcaee" stroke="#8fcaee"
         transform="translate(-157.5259,640)" />
@@ -91,6 +106,8 @@
     <animate href="#name-line" attributeName="stroke-width" from="0px" to="5px" begin="name_fill.end+1.5s" dur="0.5s"
         fill="freeze" id="diagonal_line" />
     <animateMotion href="#sky_left" dur="1s" begin="diagonal_line.end+0.5s" fill="freeze" path="M0,0,157.5259,-640" />
+    <animateMotion href="#Alw" dur="1s" begin="diagonal_line.end+0.9s" fill="freeze" path="M0,0,157.5259,-640" />
+    <animateMotion href="#win" dur="1s" begin="diagonal_line.end+0.83s" fill="freeze" path="M0,0,-157.5259,640" />
     <animateMotion href="#sky_right" dur="1s" begin="diagonal_line.end+0.5s" fill="freeze" path="M0,0,-157.5259,640"
         id="sky" />
     <animate href="#sky_right" attributeName="stroke-width" from="0px" to="5px" dur="0.25s" fill="freeze" begin="sky" />
