@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Name" viewBox="0 0 1280 640">
+    <defs>
+        <style>
+            .name-outline {
+                fill: none;
+                stroke: #fff;
+                stroke-linejoin: round;
+                stroke-linecap: round;
+                stroke-width: 4px;
+            }
+
+            .name-blank {
+                fill: transparent;
+                stroke: transparent;
+                stroke-linejoin: round;
+                stroke-linecap: round;
+                stroke-width: 8px;
+            }
+        </style>
+    </defs>
+
+    <!-- NAME: Alwin -->
+    <rect id="name-bg" y="2.5" width="1280" height="640" fill="#252e40" />
+    <polygon id="A-outside" class="name-outline"
+        points="376.844 343.399 361.003 389.721 330.763 389.721 392.924 218.837 431.565 218.837 493.727 389.721 463.486 389.721 447.646 343.399 376.844 343.399"
+        pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+    <path id="A-inside" class="name-outline"
+        d="M434.4453,304.999c-7.68-22.8-15.1206-45.1206-22.0806-67.9214h-.48c-6.96,22.8008-13.92,45.1211-21.8409,67.9214l-4.56,13.4409h53.5215Z"
+        transform="translate(0 2.5)" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+    <rect id="l" class="name-outline" x="512.2021" y="218.8374" width="27.3603" height="170.8833" pathLength="1"
+        stroke-dasharray="1" stroke-dashoffset="1" />
+    <path id="w" class="name-outline"
+        d="M676.36,389.72l-12.48-50.4c-4.32-17.28-8.16-34.8-11.76-52.56h-.48c-3.6,17.76-7.44,35.28-11.76,52.56l-12.48,50.4H588.28L558.52,267.8h27.36l11,49c4.08,17.76,7.92,36.24,11,54h.48c3.6-17.76,7.68-35.28,12-53l12.24-49.92h38.4l12.24,49.92c4.32,17.76,8.4,35.28,12,53h.48c3.12-17.76,7-36.24,11-54l11-49h27.37L715.48,389.72Z"
+        transform="translate(0 2.5)" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+    <rect id="i-upper" class="name-outline" x="764.1992" y="221.3374" width="27.3604" height="26.1606" pathLength="1"
+        stroke-dasharray="1" stroke-dashoffset="1" />
+    <rect id="i-lower" class="name-outline" x="764.1992" y="270.2983" width="27.3604" height="121.9224" pathLength="1"
+        stroke-dasharray="1" stroke-dashoffset="1" />
+    <path id="n" class="name-outline"
+        d="M933.88,315.08v74.64H906.52V317.48c0-21.84-9.36-30.48-24.72-30.48C866.2,287,854,298.76,854,322v67.68H826.6V267.8h25.92v15.84H853a43.52,43.52,0,0,1,36.48-18.72C917.08,264.92,933.88,281.72,933.88,315.08Z"
+        transform="translate(0 2.5)" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
+
+    <!-- INITIAL: Flash Alwin for image preview and browsers that don't support animation -->
+    <animate href="#A-full" attributeName="fill" values="transparent" dur="1s" fill="freeze" begin="0" />
+    <animate href="#l" attributeName="fill" values="transparent" dur="1s" fill="freeze" begin="0" />
+    <animate href="#w" attributeName="fill" values="transparent" dur="1s" fill="freeze" begin="0" />
+    <animate href="#i-lower" attributeName="fill" values="transparent" dur="1s" fill="freeze" begin="0" />
+    <animate href="#i-upper" attributeName="fill" values="transparent" dur="1s" fill="freeze" begin="0" />
+    <animate href="#n" attributeName="fill" values="transparent" dur="0.5s" fill="freeze" begin="0" />
+
+    <!-- Outline Name from A to n -->
+    <animate href="#name-bg" dur="0.1s" begin="0;graphics.click" fill="freeze" id="name" />
+    <animate href="#A-outside" attributeName="stroke-dashoffset" from="1" to="0" dur="1s" fill="freeze"
+        begin="name.begin" />
+    <animate href="#A-inside" attributeName="stroke-dashoffset" from="1" to="0" dur="1s" fill="freeze"
+        begin="name.begin" />
+    <animate href="#l" attributeName="stroke-dashoffset" from="1" to="0" dur="0.75s" fill="freeze"
+        begin="name.begin+0.25s" />
+    <animate href="#w" attributeName="stroke-dashoffset" from="1" to="0" dur="1.25s" fill="freeze"
+        begin="name.begin+0.3s" />
+    <animate href="#i-lower" attributeName="stroke-dashoffset" from="1" to="0" dur="1s" fill="freeze"
+        begin="name.begin+0.5s" />
+    <animate href="#i-upper" attributeName="stroke-dashoffset" from="1" to="0" dur="0.5s" fill="freeze"
+        begin="name.begin+1.25s" id="name_outline" />
+    <animate href="#n" attributeName="stroke-dashoffset" from="1" to="0" dur="1s" fill="freeze"
+        begin="name.begin+0.75s" />
+
+    <!-- Fill Letters -->
+    <path id="Alw" class="name-blank"
+        d="M392.9243,218.8374,330.7627,389.7207h30.2407l15.84-46.3213h70.8017l15.84,46.3213h30.2408L431.5649,218.8374ZM439.0054,318.44H385.4839l4.56-13.4409c7.9205-22.8,14.88-45.1206,21.8409-67.9214h.48c6.96,22.8008,14.4,45.1211,22.0806,67.9214Zm73.1967,71.2808h27.36V218.8374h-27.36Zm120.48-121.9224-12.24,49.9209c-4.32,17.76-8.4,35.2808-12,53.0415h-.48c-3.12-17.7607-6.96-36.2412-11.0405-54.0014l-11.04-48.961H558.5205l29.7608,121.9224h39.121l3.4561-13.9576,9.0239-36.4438q1.67-6.68,3.2468-13.41c3.035-12.9184,5.8416-25.9676,8.5135-39.1506h.48c.0961.474.1971.9437.2935,1.4174l5.0158-20.3779Z" />
+    <path id="win" class="name-blank"
+        d="M764.1992,244.998V218.8374h27.36V244.998Zm0,144.7227V267.7983h27.36V389.7207ZM933.8809,315.08v74.6411h-27.36V317.48c0-21.8408-9.36-30.481-24.7207-30.481-15.6006,0-27.8408,11.76-27.8408,35.04v67.6816h-27.36V267.7983h25.92v15.84h.48a43.5231,43.5231,0,0,1,36.4805-18.72C917.08,264.9185,933.8809,281.7188,933.8809,315.08ZM717.8848,267.7983l-11.041,48.961c-4.08,17.76-7.92,36.2407-11.04,54.0014h-.48c-3.6006-17.7607-7.6806-35.2812-12.001-53.0415l-12.24-49.9209H657.4323l-5.0158,20.3779c3.5162,17.2737,7.2623,34.3242,11.4663,51.1431l12.4805,50.4014h39.1211l29.7607-121.9224Z" />
+
+    <animate href="#Alw" attributeName="fill" values="transparent;#fff" dur="0.25s" fill="freeze"
+        begin="name_outline.end+0.1s;graphics.click;click" />
+    <animate href="#Alw" attributeName="stroke" values="transparent;#fff" dur="0.25s" fill="freeze"
+        begin="name_outline.end+0.1s" />
+    <animate href="#win" attributeName="fill" values="transparent;#fff" dur="0.25s" fill="freeze"
+        begin="name_outline.end+0.1s" />
+    <animate href="#win" attributeName="stroke" values="transparent;#fff" dur="0.25s" fill="freeze"
+        begin="name_outline.end+0.1s" id="name_fill" />
+
+    <animate href="#A-outside" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze"
+        begin="name_outline.end" calcMode="discrete" />
+    <animate href="#A-inside" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze"
+        begin="name_outline.end" calcMode="discrete" />
+    <animate href="#l" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze" begin="name_outline.end"
+        calcMode="discrete" />
+    <animate href="#w" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze" begin="name_outline.end"
+        calcMode="discrete" />
+    <animate href="#i-lower" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze"
+        begin="name_outline.end" calcMode="discrete" />
+    <animate href="#i-upper" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze"
+        begin="name_outline.end" calcMode="discrete" />
+    <animate href="#n" attributeName="stroke-dashoffset" from="0" to="1" dur="1s" fill="freeze" begin="name_outline.end"
+        calcMode="discrete" />
+
+    <!-- Sky Background -->
+    <polygon id="sky_left" points="0 0 0 640 565.821 640 723.347 0 0 0" fill="#8fcaee" stroke="#8fcaee"
+        transform="translate(-157.5259,640)" />
+    <polygon id="sky_right" points="723.347 0 565.821 640 1280 640 1280 0 723.347 0" fill="#74a2d6" stroke="#74a2d6"
+        transform="translate(157.5259,-640)" />
+    <line id="name-line" x1="-78.77" y1="322.5" x2="78.77" y2="-322.5" transform="translate(644.58 320)" stroke="#fff"
+        stroke-width="0px" />
+
+    <animate href="#name-line" attributeName="stroke-width" from="0px" to="5px" begin="name_fill.end+1.5s" dur="0.5s"
+        fill="freeze" id="diagonal_line" />
+    <animateMotion href="#sky_left" dur="1s" begin="diagonal_line.end+0.5s" fill="freeze" path="M0,0,157.5259,-640" />
+    <animateMotion href="#Alw" dur="1s" begin="diagonal_line.end+0.9s" fill="freeze" path="M0,0,157.5259,-640" />
+    <animateMotion href="#win" dur="1s" begin="diagonal_line.end+0.83s" fill="freeze" path="M0,0,-157.5259,640" />
+    <animateMotion href="#sky_right" dur="1s" begin="diagonal_line.end+0.5s" fill="freeze" path="M0,0,-157.5259,640"
+        id="sky" />
+    <animate href="#sky_right" attributeName="stroke-width" from="0px" to="5px" dur="0.25s" fill="freeze" begin="sky" />
+    <animate href="#name-line" attributeName="stroke-width" from="5px" to="0px" begin="sky.end" dur="0.5s" fill="freeze"
+        id="diagonal_line" />
+
+</svg>
