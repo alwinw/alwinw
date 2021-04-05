@@ -114,7 +114,9 @@
 
     <animateMotion href="#sky_left" dur="1s" begin="diagonal_line.end+0.5s" fill="freeze" path="M-157.5259,640,0,0" />
     <animateMotion href="#Alw" dur="1s" begin="diagonal_line.end+0.9s" fill="freeze" path="M0,0,157.5259,-640" />
+    <animateMotion href="#A-inside" dur="1s" begin="diagonal_line.end+0.9s" fill="freeze" path="M0,0,157.5259,-640" />
     <animateMotion href="#win" dur="1s" begin="diagonal_line.end+0.83s" fill="freeze" path="M0,0,-157.5259,640" />
+    <animateMotion href="#w" dur="1s" begin="diagonal_line.end+0.83s" fill="freeze" path="M0,0,-157.5259,640" />
     <animateMotion href="#sky_right" dur="1s" begin="diagonal_line.end+0.5s" fill="freeze" path="M157.5259,-640,0,0"
         id="sky" />
     <animate href="#sky_right" attributeName="stroke-width" from="0px" to="2px" dur="0.25s" fill="freeze" begin="sky" />
