@@ -19,8 +19,13 @@
         </style>
     </defs>
 
+    <!-- Backgrounds -->
+    <rect id="name-bg-0" y="0" width="1280" height="640" fill="#252e40" />
+    <polygon id="sky_left" points="0 0 0 640 565.821 640 723.347 0 0 0" fill="#8fcaee" stroke="#8fcaee" />
+    <polygon id="sky_right" points="723.347 0 565.821 640 1280 640 1280 0 723.347 0" fill="#74a2d6" stroke="#74a2d6" />
+    <rect id="name-bg-1" y="0" width="1280" height="640" fill="#252e40" />
+
     <!-- NAME: Alwin -->
-    <rect id="name-bg" y="2.5" width="1280" height="640" fill="#252e40" />
     <polygon id="A-outside" class="name-outline"
         points="376.844 343.399 361.003 389.721 330.763 389.721 392.924 218.837 431.565 218.837 493.727 389.721 463.486 389.721 447.646 343.399 376.844 343.399"
         pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" />
@@ -49,7 +54,8 @@
     <animate href="#n" attributeName="fill" values="transparent" dur="0.5s" fill="freeze" begin="0" />
 
     <!-- Outline Name from A to n -->
-    <animate href="#name-bg" dur="0.1s" begin="0;graphics.click" fill="freeze" id="name" />
+    <!-- Consider using key frames to show then hide -->
+    <animate href="#name-bg-1" dur="0.1s" begin="0;graphics.click" fill="freeze" id="name" />
     <animate href="#A-outside" attributeName="stroke-dashoffset" from="1" to="0" dur="1s" fill="freeze"
         begin="name.begin" />
     <animate href="#A-inside" attributeName="stroke-dashoffset" from="1" to="0" dur="1s" fill="freeze"
@@ -96,19 +102,20 @@
         calcMode="discrete" />
 
     <!-- Sky Background -->
-    <polygon id="sky_left" points="0 0 0 640 565.821 640 723.347 0 0 0" fill="#8fcaee" stroke="#8fcaee"
-        transform="translate(-157.5259,640)" />
-    <polygon id="sky_right" points="723.347 0 565.821 640 1280 640 1280 0 723.347 0" fill="#74a2d6" stroke="#74a2d6"
-        transform="translate(157.5259,-640)" />
     <line id="name-line" x1="-78.77" y1="322.5" x2="78.77" y2="-322.5" transform="translate(644.58 320)" stroke="#fff"
         stroke-width="0px" />
 
     <animate href="#name-line" attributeName="stroke-width" from="0px" to="8px" begin="name_fill.end+1.5s" dur="0.5s"
         fill="freeze" id="diagonal_line" />
-    <animateMotion href="#sky_left" dur="1s" begin="diagonal_line.end+0.5s" fill="freeze" path="M0,0,157.5259,-640" />
+    <animateMotion href="#sky_left" dur="0.1s" begin="diagonal_line.end" fill="freeze" path="M0,0,-157.5259,640" />
+    <animateMotion href="#sky_right" dur="0.1s" begin="diagonal_line.end" fill="freeze" path="M0,0,157.5259,-640" />
+    <animate href="#name-bg-1" attributeName="opacity" from="1" to="0" dur="0.1s" begin="diagonal_line.end+0.2s"
+        fill="freeze" />
+
+    <animateMotion href="#sky_left" dur="1s" begin="diagonal_line.end+0.5s" fill="freeze" path="M-157.5259,640,0,0" />
     <animateMotion href="#Alw" dur="1s" begin="diagonal_line.end+0.9s" fill="freeze" path="M0,0,157.5259,-640" />
     <animateMotion href="#win" dur="1s" begin="diagonal_line.end+0.83s" fill="freeze" path="M0,0,-157.5259,640" />
-    <animateMotion href="#sky_right" dur="1s" begin="diagonal_line.end+0.5s" fill="freeze" path="M0,0,-157.5259,640"
+    <animateMotion href="#sky_right" dur="1s" begin="diagonal_line.end+0.5s" fill="freeze" path="M157.5259,-640,0,0"
         id="sky" />
     <animate href="#sky_right" attributeName="stroke-width" from="0px" to="2px" dur="0.25s" fill="freeze" begin="sky" />
     <animate href="#name-line" attributeName="stroke-width" from="8px" to="0px" begin="sky.end" dur="0.5s" fill="freeze"
