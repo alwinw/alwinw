@@ -15,7 +15,7 @@
     <a href="https://github.com/alwinw?tab=repositories&language=r" target="_blank"><img alt="R" src="https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=R&logoColor=white"></a>
     <a href="https://github.com/alwinw?tab=repositories&language=c%2B%2B" target="_blank"><img alt="C++" src="https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=C%2B%2B&logoColor=white"></a>
     <a href="https://github.com/alwinw?tab=repositories&language=shell" target="_blank"><img alt="shell" src="https://img.shields.io/badge/-shell-5391FE?style=flat-square&logo=PowerShell&logoColor=white"></a>
-    <a href="https://github.com/alwinw?tab=repositories&language=matlab" target="_blank"><img alt="MATLAB" src="https://img.shields.io/badge/-MATALB-0076A8?style=flat-square&logo=Mathworks&logoColor=white"></a>
+    <a href="https://github.com/alwinw?tab=repositories&language=matlab" target="_blank"><img alt="MATLAB" src="https://img.shields.io/badge/-MATLAB-0076A8?style=flat-square&logo=Mathworks&logoColor=white"></a>
     <a href="https://github.com/alwinw?tab=repositories&language=TeX" target="_blank"><img alt="LaTeX" src="https://img.shields.io/badge/-LaTeX-008080?style=flat-square&logo=LaTeX&logoColor=white"></a>
 </p>
 
@@ -26,7 +26,6 @@
     <a href="https://github.com/alwinw/alwinw" target="_blank"><img alt="GitHub hits" src="https://img.shields.io/github/last-commit/alwinw/alwinw?label=profile%20updated&style=flat-square"></a>
 </p>
 
-
 <details>
 <summary>Click for GitHub Stats</summary>
 <p align="center">
@@ -34,4 +33,4 @@
     <br>
     <img alt = "Top Language" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alwinw&hide=html,&hide_border=true&title_color=5391FE&text_color=555"
 </p>
-</details> 
+</details>
