@@ -274,6 +274,7 @@
     <animateMotion href="#UAS-mainframe" dur="1s" begin="sky.end" fill="freeze" path="M0,0,-157.5259,640" />
     <animate href="#UAS-mainframe" attributeName="opacity" from="0" to="1" dur="0.1s" begin="sky.end+0.2s"
         fill="freeze" />
-    <animateMotion href="#UAS-mainframe" dur="1s" begin="sky.end+0.2s" fill="freeze" path="M-157.5259,640,0,0" />
+    <animateMotion href="#UAS-mainframe" dur="1s" begin="sky.end+0.2s" fill="freeze" path="M-157.5259,640,0,0"
+        id="mainframe" />
 
 </svg>
